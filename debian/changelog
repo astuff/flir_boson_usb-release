@@ -1,0 +1,11 @@
+ros-lunar-flir-boson-usb (1.0.0-0stretch) stretch; urgency=high
+
+  * Adding LICENSE.
+  * Adding status badge to README.
+  * Adding launch file.
+  * Initial commit.
+  * Contributors: Joshua Whitley
+
+ -- AutonomouStuff Software Development Team <software@autonomoustuff.com>  Thu, 13 Dec 2018 06:00:00 -0000
+
+
