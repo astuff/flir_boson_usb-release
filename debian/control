@@ -1,0 +1,12 @@
+Source: ros-indigo-flir-boson-usb
+Section: misc
+Priority: extra
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-image-transport, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Homepage: http://wiki.ros.org/flir_boson_usb
+Standards-Version: 3.9.2
+
+Package: ros-indigo-flir-boson-usb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cv-bridge, ros-indigo-image-transport, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Description: A simple USB camera driver for the FLIR BOSON using OpenCV
