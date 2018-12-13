@@ -1,0 +1,12 @@
+Source: ros-kinetic-flir-boson-usb
+Section: misc
+Priority: extra
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-image-transport, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Homepage: http://wiki.ros.org/flir_boson_usb
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-flir-boson-usb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cv-bridge, ros-kinetic-image-transport, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Description: A simple USB camera driver for the FLIR BOSON using OpenCV
