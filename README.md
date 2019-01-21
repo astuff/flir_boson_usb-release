@@ -1,3 +1,26 @@
+## flir_boson_usb (kinetic) - 1.1.1-0
+
+The packages in the `flir_boson_usb` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --ros-distro kinetic flir_boson_usb` on `Mon, 21 Jan 2019 16:07:41 -0000`
+
+The `flir_boson_usb` package was released.
+
+Version of package(s) in repository `flir_boson_usb`:
+
+- upstream repository: https://github.com/astuff/flir_boson_usb.git
+- release repository: https://github.com/astuff/flir_boson_usb-release.git
+- rosdistro version: `1.0.0-0`
+- old version: `1.1.0-0`
+- new version: `1.1.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.1`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.14.0`
+- rosdistro version: `0.7.1`
+- vcstools version: `0.1.40`
+
+
 ## flir_boson_usb (melodic) - 1.1.0-0
 
 The packages in the `flir_boson_usb` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic --ros-distro melodic flir_boson_usb` on `Mon, 21 Jan 2019 16:01:06 -0000`
