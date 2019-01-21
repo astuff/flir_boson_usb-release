@@ -1,0 +1,27 @@
+ros-lunar-flir-boson-usb (1.1.1-0xenial) xenial; urgency=high
+
+  * Temporarily removing camera_info_manager.
+  * Contributors: Joshua Whitley
+
+ -- AutonomouStuff Software Development Team <software@autonomoustuff.com>  Mon, 21 Jan 2019 06:00:00 -0000
+
+ros-lunar-flir-boson-usb (1.1.0-0xenial) xenial; urgency=high
+
+  * Modified install of launch folder.
+  * Added roslint and cleaned up based on suggestions.
+  * Converted driver to BosonCamera nodelet.
+  * Contributors: Joshua Whitley
+
+ -- AutonomouStuff Software Development Team <software@autonomoustuff.com>  Mon, 21 Jan 2019 06:00:00 -0000
+
+ros-lunar-flir-boson-usb (1.0.0-0xenial) xenial; urgency=high
+
+  * Adding LICENSE.
+  * Adding status badge to README.
+  * Adding launch file.
+  * Initial commit.
+  * Contributors: Joshua Whitley
+
+ -- AutonomouStuff Software Development Team <software@autonomoustuff.com>  Thu, 13 Dec 2018 06:00:00 -0000
+
+
