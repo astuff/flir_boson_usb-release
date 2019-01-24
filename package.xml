@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>flir_boson_usb</name>
-  <version>1.1.2</version>
+  <version>1.2.0</version>
   <description>A simple USB camera driver for the FLIR BOSON using OpenCV</description>
   <license>MIT</license>
 
@@ -20,6 +20,7 @@
   <depend>roscpp</depend>
   <depend>nodelet</depend>
   <depend>cv_bridge</depend>
+  <depend>camera_info_manager</depend>
   <depend>image_transport</depend>
   <depend>sensor_msgs</depend>
 
