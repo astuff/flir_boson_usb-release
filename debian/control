@@ -1,0 +1,12 @@
+Source: ros-lunar-flir-boson-usb
+Section: misc
+Priority: extra
+Maintainer: AutonomouStuff Software Development Team <software@autonomoustuff.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-camera-info-manager, ros-lunar-catkin, ros-lunar-cv-bridge, ros-lunar-image-transport, ros-lunar-nodelet, ros-lunar-roscpp, ros-lunar-roslint, ros-lunar-sensor-msgs
+Homepage: http://wiki.ros.org/flir_boson_usb
+Standards-Version: 3.9.2
+
+Package: ros-lunar-flir-boson-usb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-camera-info-manager, ros-lunar-cv-bridge, ros-lunar-image-transport, ros-lunar-nodelet, ros-lunar-roscpp, ros-lunar-sensor-msgs
+Description: A simple USB camera driver for the FLIR BOSON using OpenCV
